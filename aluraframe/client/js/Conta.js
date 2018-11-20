@@ -22,4 +22,8 @@ class Conta {
     get conta() {
         return this._conta;
     }
+
+    atualiza(taxa) {
+        throw new Error('Você deve sobrescrever esse método');
+    }
 }
